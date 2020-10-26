@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+* {
+  margin: auto;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.cards {
+  position: relative;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #dcdada;
+  top: 60px;
+  min-height: 500px;
+  width: 800px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.info {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  color: black;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  float: left;
+}
+
+.info h2 {
+  font-size: 2rem;
+}
+
+.name h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.form {
+  position: relative;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  float: right;
+  padding-left: 20px;
+}
+.button button {
+  height: 30px;
+}
+
+.nameInput {
+  width: 400px;
+  height: 30px;
 }
